@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Simples</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Calculadora</h1>
+
+  <input type="number" id="valor1" placeholder="Valor 1">
+  <input type="number" id="valor2" placeholder="Valor 2">
+
+  <div class="botoes">
+    <button onclick="soma()">+</button>
+    <button onclick="subtracao()">-</button>
+    <button onclick="multiplicacao()">*</button>
+    <button onclick="divisao()">/</button>
+  </div>
+
+  <p>Resultado: <span id="resultado">0</span></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
